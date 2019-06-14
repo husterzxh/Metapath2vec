@@ -1,8 +1,9 @@
 #!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 
-import numpy as np
 import random
+import numpy as np
+
 
 class VocabularyGenerator(object):
     def __init__(self, meta_path_txt, window_size):
